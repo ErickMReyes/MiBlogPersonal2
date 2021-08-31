@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: "Oxygen", sans-serif;
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23b5b8e3' fill-opacity='0.4'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  color: #1e272e;
+  font-size: 16px;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+/* Navigation */
+.nav-main {
+  font-size: 17px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 20px 0;
+}
+
+/* Navbar Left */
+.nav-main ul {
+  display: flex;
+}
+
+.nav-main ul li {
+  padding: 10px;
+  color: blue;
+}
+
+.nav-main ul li a {
+  padding: 2px;
+  text-decoration: none;
+}
+
+.nav-main ul li a:hover {
+  border-bottom: 2px solid blue;
+}
+
+.nav-main ul.nav-menu {
+  flex: 1;
+  margin-left: 20px;
+}
+.avatar {
+  height: 300px;
+  width: 300px;
+  border-radius: 100px;
+}
+.personal {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  font-size: 35px;
+  text-align: center;
+  min-height: 100vh;
+}
+.personal h1 {
+  color: blue;
+}
+.avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.datos {
+  min-height: 100vh;
+  font-size: 35px;
+  text-align: justify;
+}
+.rangos {
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  background: #889ccf;
+  margin: 0 0 25px;
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 35px 0px 35px 0px;
+  -moz-border-radius: 35px 0px 35px 0px;
+  -webkit-border-radius: 35px 0px 35px 0px;
+  border: 2px solid #5878ca;
+}
+
+.f1 {
+  text-align: center;
+  font-size: 40px;
+}
+.f1 #carro {
+  color: red;
+}
+.f1 #juego {
+  color: green;
+}
+.f1 #web {
+  color: blue;
+}
